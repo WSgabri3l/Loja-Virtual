@@ -1,0 +1,87 @@
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content{
+    background-color: #fff;
+    width: 680px;
+    height: 580px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #00000070;
+}
+
+/* Parte Injetada por javaScript */
+
+/* Imagem do Modal */
+
+#modal-product-image{
+    width: 300px;
+    height: 200px;
+}
+
+.modal-product-image-div{
+    display: flex;
+    align-items: center;
+}
+
+/* Divs do Modal */
+
+#modal-product-div{
+    gap: 20px;
+    display: flex;
+}
+
+.modal-product-second-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Texto do Modal */
+
+.modal-product-text-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#modal-product-title{
+    color: #000000;
+}
+
+#modal-product-price{
+    color: #038C3E;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Botao do Modal */
+
+#modal-product-button{
+    background-color: #F2DE79;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#modal-product-button:hover{
+    cursor: pointer;
+    background-color: #A68524;
+}
