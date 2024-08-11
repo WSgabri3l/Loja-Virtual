@@ -1,0 +1,86 @@
+.confirmation-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+}
+
+.confirmation-container-buy-items{
+    width: 65%;
+    height: 500px;
+    box-shadow: 0 0 10px 0 #00000070;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation-container-address{
+    width: 25%;
+    height: 500px;
+    box-shadow: 0 0 10px 0 #00000070;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.address-form, #address-form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*Items Comprados */
+
+.confirmation-container-buy-items-list{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    overflow: auto;
+}
+
+.buy-div{
+    display: flex;
+    gap: 10px;
+}
+
+#buy-price{
+    font-size: 30px;
+    font-weight: 700;
+    color: #038C3E;
+}
+
+#buy-title{
+    font-weight: 400;
+}
+
+#buy-img{
+    width: 100px;
+    height: 70px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* Formulario de Endereco */
+
+.address-form-confirmation{
+    display: flex;
+    justify-content: center;
+}
+
+#address-form-confirmation-button{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: #F2DE79;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #00000070;
+}
+
+#address-form-confirmation-button:hover{
+    cursor: pointer;
+    background-color: #A68524;
+}

@@ -1,0 +1,65 @@
+.nav-container{
+    background-color: #F27D52;
+    width: 100%;
+    height: 50px;
+}
+
+a, li{
+    color: #000000;
+    text-decoration: none;
+}
+
+a{
+    cursor: pointer;
+}
+
+#nav-src{
+    text-transform: capitalize;
+}
+
+.nav-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#nav-content-categories{
+    list-style: none;
+}
+
+#nav-content-categories li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#nav-content-categories li a{
+    transition: all 0.3s ease 0s;
+}
+
+#nav-content-categories li a:hover{
+    color: #F7FEF6;
+}
+
+.nav-content-kart{
+    width: 55px;
+    height: 35px;
+}
+
+.nav-content-kart:hover{
+    cursor: pointer;
+}
+
+/* Contador de Compras */
+
+#nav-content-kart-count{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 100%;
+    border: none;
+}
